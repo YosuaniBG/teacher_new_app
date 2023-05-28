@@ -9,8 +9,8 @@ import { of } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  user: any=null;
-  token: any=null;
+  user: any = null;
+  token: any = null;
   constructor(
     private http: HttpClient,
     private router: Router
